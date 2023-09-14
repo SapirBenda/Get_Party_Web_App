@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca3b43c1.css",
+    "main.js": "/static/js/main.5844399f.js",
+    "static/media/favicon.png": "/static/media/favicon.1a3338ea965d918da2e7.png",
+    "static/media/Clock.gif": "/static/media/Clock.9179e5a1a6c99a3cd060.gif",
+    "static/media/Google_Maps_Logo.png": "/static/media/Google_Maps_Logo.1248fccc347176561461.png",
+    "index.html": "/index.html",
+    "main.ca3b43c1.css.map": "/static/css/main.ca3b43c1.css.map",
+    "main.5844399f.js.map": "/static/js/main.5844399f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca3b43c1.css",
+    "static/js/main.5844399f.js"
+  ]
+}

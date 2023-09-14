@@ -1,0 +1,50 @@
+.flyout-menu {
+  position: absolute;
+  /* top: calc(var(--vt-nav-height) / 2 + 15px); */
+  top: "9rem";
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+  transition: opacity 0.25s, visibility 0.25s, transform 0.25s;
+  border-radius: 10px;
+  border: solid 2px black;
+  color: #e5e0ff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  background-color: #333333;
+  font-family: "Geologica";
+} 
+
+.flyout:hover .flyout-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu {
+  border-radius: 20px;
+  padding: 0;
+  min-width: 180px;
+  overflow: hidden;
+}
+
+.menu-link {
+  display: flex;
+  padding: 3px 18px;
+  font-size: 1.1rem;
+  align-items: center;
+  color: #e5e0ff;
+  gap: 10px;
+  text-decoration: none;
+  line-height: 200%;
+  border-top: solid black 1px;
+}
+
+.menu-link:nth-child(2):hover,
+.menu-link:nth-child(3):hover,
+.menu-link:nth-child(4):hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
