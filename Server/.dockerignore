@@ -1,0 +1,5 @@
+**/node_modules
+.env
+key.json
+cloud-sql-proxy.exe
+auth_key.json
