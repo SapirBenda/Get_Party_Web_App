@@ -1,0 +1,1 @@
+Start-Process -filepath  ".\cloud-sql-proxy.exe" -ArgumentList "--credentials-file ./key.json get-party-2023:me-west1:get-party"
